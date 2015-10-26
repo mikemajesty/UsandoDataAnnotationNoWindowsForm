@@ -1,4 +1,4 @@
-﻿using System;
+é﻿using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -12,9 +12,9 @@ namespace DataAnnotationInWidowsForm
         [DisplayName("User Name")]
         public string Username { get; set; }
         [Required(ErrorMessage = "{0} é obrigatório")]
-        [StringLength(maximumLength: 50, MinimumLength = 3,ErrorMessage ="{0} deve contem de 3 há 50 letras")]
+        [StringLength(maximumLength: 50, MinimumLength = 3,ErrorMessage ="{0} deve contem de 3 até 50 letras")]
         public string Nome { get; set; }
-        [StringLength(maximumLength: 50, MinimumLength = 3, ErrorMessage = "{0} deve contem de 3 há 50 letras")]
+        [StringLength(maximumLength: 50, MinimumLength = 3, ErrorMessage = "{0} deve contem de 3 até 50 letras")]
         [Required(ErrorMessage = "{0} é obrigatório")]
         public string Sobrenome { get; set; }
         public string Enrereço { get; set; }
