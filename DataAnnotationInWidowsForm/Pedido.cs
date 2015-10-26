@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace DataAnnotationInWidowsForm
@@ -7,20 +8,21 @@ namespace DataAnnotationInWidowsForm
     {
         [Key]
         public int OrderId { get; set; }
-        public DateTime OrderDate { get; set; }
+        public DateTime DataPedido { get; set; }
+        [DisplayName("User Name")]
         public string Username { get; set; }
-        [Required(ErrorMessage = "First name is required")]
-        [StringLength(maximumLength: 160, MinimumLength = 3)]
-        public string FirstName { get; set; }
-        [StringLength(maximumLength: 160, MinimumLength = 3)]
-        [Required(ErrorMessage = "Last name is required")]
-        public string LastName { get; set; }
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string State { get; set; }
-        public string PostalCode { get; set; }
-        public string Country { get; set; }
-        public string Phone { get; set; }
+        [Required(ErrorMessage = "{0} é obrigatório")]
+        [StringLength(maximumLength: 50, MinimumLength = 3,ErrorMessage ="{0} deve contem de 3 há 50 letras")]
+        public string Nome { get; set; }
+        [StringLength(maximumLength: 50, MinimumLength = 3, ErrorMessage = "{0} deve contem de 3 há 50 letras")]
+        [Required(ErrorMessage = "{0} é obrigatório")]
+        public string Sobrenome { get; set; }
+        public string Enrereço { get; set; }
+        public string Cidade { get; set; }
+        public string Estado { get; set; }
+        public string CodigoPostal { get; set; }
+        public string País { get; set; }
+        public string Telefone { get; set; }
         [RegularExpression(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}", ErrorMessage = "E-mail inválido")]
         public string Email { get; set; }
         public decimal Total { get; set; }

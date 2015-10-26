@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.btnSave = new System.Windows.Forms.Button();
-            this.txtOrderDate = new System.Windows.Forms.TextBox();
+            this.txtDataPedido = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.txtSobrenome = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtAdreess = new System.Windows.Forms.TextBox();
+            this.txtEndereço = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtState = new System.Windows.Forms.TextBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtPostCode = new System.Windows.Forms.TextBox();
+            this.txtCódigoPostal = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtCountry = new System.Windows.Forms.TextBox();
+            this.txtPaís = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -65,12 +65,12 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // txtOrderDate
+            // txtDataPedido
             // 
-            this.txtOrderDate.Location = new System.Drawing.Point(99, 25);
-            this.txtOrderDate.Name = "txtOrderDate";
-            this.txtOrderDate.Size = new System.Drawing.Size(97, 20);
-            this.txtOrderDate.TabIndex = 1;
+            this.txtDataPedido.Location = new System.Drawing.Point(99, 25);
+            this.txtDataPedido.Name = "txtDataPedido";
+            this.txtDataPedido.Size = new System.Drawing.Size(97, 20);
+            this.txtDataPedido.TabIndex = 1;
             // 
             // label1
             // 
@@ -97,12 +97,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "User name";
             // 
-            // txtFirstName
+            // txtNome
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(99, 98);
-            this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(97, 20);
-            this.txtFirstName.TabIndex = 1;
+            this.txtNome.Location = new System.Drawing.Point(99, 98);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(97, 20);
+            this.txtNome.TabIndex = 1;
             // 
             // label3
             // 
@@ -113,12 +113,12 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "First  name";
             // 
-            // txtLastName
+            // txtSobrenome
             // 
-            this.txtLastName.Location = new System.Drawing.Point(99, 124);
-            this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(97, 20);
-            this.txtLastName.TabIndex = 1;
+            this.txtSobrenome.Location = new System.Drawing.Point(99, 124);
+            this.txtSobrenome.Name = "txtSobrenome";
+            this.txtSobrenome.Size = new System.Drawing.Size(97, 20);
+            this.txtSobrenome.TabIndex = 1;
             // 
             // label4
             // 
@@ -129,12 +129,12 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Last name";
             // 
-            // txtAdreess
+            // txtEndereço
             // 
-            this.txtAdreess.Location = new System.Drawing.Point(99, 150);
-            this.txtAdreess.Name = "txtAdreess";
-            this.txtAdreess.Size = new System.Drawing.Size(97, 20);
-            this.txtAdreess.TabIndex = 1;
+            this.txtEndereço.Location = new System.Drawing.Point(99, 150);
+            this.txtEndereço.Name = "txtEndereço";
+            this.txtEndereço.Size = new System.Drawing.Size(97, 20);
+            this.txtEndereço.TabIndex = 1;
             // 
             // label5
             // 
@@ -145,12 +145,12 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "Adress";
             // 
-            // txtCity
+            // txtCidade
             // 
-            this.txtCity.Location = new System.Drawing.Point(99, 176);
-            this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(97, 20);
-            this.txtCity.TabIndex = 1;
+            this.txtCidade.Location = new System.Drawing.Point(99, 176);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(97, 20);
+            this.txtCidade.TabIndex = 1;
             // 
             // label6
             // 
@@ -161,12 +161,12 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "City";
             // 
-            // txtState
+            // txtEstado
             // 
-            this.txtState.Location = new System.Drawing.Point(99, 199);
-            this.txtState.Name = "txtState";
-            this.txtState.Size = new System.Drawing.Size(97, 20);
-            this.txtState.TabIndex = 1;
+            this.txtEstado.Location = new System.Drawing.Point(99, 199);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(97, 20);
+            this.txtEstado.TabIndex = 1;
             // 
             // label7
             // 
@@ -177,12 +177,12 @@
             this.label7.TabIndex = 2;
             this.label7.Text = "State";
             // 
-            // txtPostCode
+            // txtCódigoPostal
             // 
-            this.txtPostCode.Location = new System.Drawing.Point(99, 236);
-            this.txtPostCode.Name = "txtPostCode";
-            this.txtPostCode.Size = new System.Drawing.Size(97, 20);
-            this.txtPostCode.TabIndex = 1;
+            this.txtCódigoPostal.Location = new System.Drawing.Point(99, 236);
+            this.txtCódigoPostal.Name = "txtCódigoPostal";
+            this.txtCódigoPostal.Size = new System.Drawing.Size(97, 20);
+            this.txtCódigoPostal.TabIndex = 1;
             // 
             // label8
             // 
@@ -193,12 +193,12 @@
             this.label8.TabIndex = 2;
             this.label8.Text = "Post Code";
             // 
-            // txtCountry
+            // txtPaís
             // 
-            this.txtCountry.Location = new System.Drawing.Point(99, 262);
-            this.txtCountry.Name = "txtCountry";
-            this.txtCountry.Size = new System.Drawing.Size(97, 20);
-            this.txtCountry.TabIndex = 1;
+            this.txtPaís.Location = new System.Drawing.Point(99, 262);
+            this.txtPaís.Name = "txtPaís";
+            this.txtPaís.Size = new System.Drawing.Size(97, 20);
+            this.txtPaís.TabIndex = 1;
             // 
             // label9
             // 
@@ -209,12 +209,12 @@
             this.label9.TabIndex = 2;
             this.label9.Text = "Country";
             // 
-            // txtPhone
+            // txtTelefone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(99, 288);
-            this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(97, 20);
-            this.txtPhone.TabIndex = 1;
+            this.txtTelefone.Location = new System.Drawing.Point(99, 288);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(97, 20);
+            this.txtTelefone.TabIndex = 1;
             // 
             // label10
             // 
@@ -275,17 +275,17 @@
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtPhone);
-            this.Controls.Add(this.txtCountry);
-            this.Controls.Add(this.txtPostCode);
-            this.Controls.Add(this.txtState);
-            this.Controls.Add(this.txtCity);
-            this.Controls.Add(this.txtAdreess);
-            this.Controls.Add(this.txtLastName);
-            this.Controls.Add(this.txtFirstName);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtPaís);
+            this.Controls.Add(this.txtCódigoPostal);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.txtEndereço);
+            this.Controls.Add(this.txtSobrenome);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtOrderDate);
+            this.Controls.Add(this.txtDataPedido);
             this.Controls.Add(this.btnSave);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -297,25 +297,25 @@
         #endregion
 
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.TextBox txtOrderDate;
+        private System.Windows.Forms.TextBox txtDataPedido;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtFirstName;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.TextBox txtSobrenome;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtAdreess;
+        private System.Windows.Forms.TextBox txtEndereço;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtState;
+        private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtPostCode;
+        private System.Windows.Forms.TextBox txtCódigoPostal;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtCountry;
+        private System.Windows.Forms.TextBox txtPaís;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label11;
